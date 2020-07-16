@@ -29,3 +29,12 @@ var number1 = parseInt(prompt("Enter a number:"));
 var number2 = parseInt(prompt("Enter another number:"));
 var result = multiply(number1, number2);
 alert(result);
+
+var bmi = function(weight, height1) {
+return weight / height1;
+};
+var weight = parseInt(prompt("Enter your weight:"));
+var height2 = parseInt(prompt("Enter your height2:"));
+var height1 = function(height2, height2) {return height2 * height2};
+var result = bmi(weight, height1);
+alert(result);
